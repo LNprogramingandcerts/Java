@@ -1,0 +1,30 @@
+public class Hello {
+
+    public static void main(String[] args) {
+
+        System.out.println("Hello, World!");
+
+        int  myFirstNumber = 5;
+        System.out.println(myFirstNumber);
+    }
+
+}
+
+variables store information
+
+public class Hello {
+
+    public static void main(String[] args) {
+
+        System.out.println("Hello, World!");
+
+        int  myFirstNumber = 5 + 5;
+        int mySecondNumber = 4;
+        int myThirdNumber = myFirstNumber * 3;
+
+        int myTotal = myFirstNumber + mySecondNumber + myThirdNumber;
+
+        System.out.println(myTotal);
+    }
+
+}
